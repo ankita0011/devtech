@@ -1,0 +1,37 @@
+Git Repository (local), GitHub (central/over to cloud)
+=====================================================
+
+www.github.com: central
+Git Install   : local 
+
+
+Lifecyle of git:
+$ 
+1. local files and folder
+2. Stage 
+3. Master/local repo
+4. GitHub  Repository/Hub  : remote
+	
+
+go to folder:
+		$ cd /Documents/Sandbox/mydata
+		
+$git init 		
+$git status 
+$git add -A		: A is all files 
+$git add data.txt 	: only data.txt file 
+$git reset data.txt
+$git commit -m "version 1"
+$git log 
+$git diff filename.txt
+
+
+$git remote add stat https://github.com/vimleshtech/statrepo.git
+
+$git push -u stat master 
+
+--download complete reposiboty
+$git clone https://github.com/vimleshtech/statrepo.git
+--download updated or pending files 
+$git pull https://github.com/vimleshtech/statrepo.git
+
